@@ -1,92 +1,146 @@
-# 👋 Hi, I'm alphabeen
+<h1 align="center">👋 안녕하세요, 정진호입니다!</h1>
 
-## 🎓 About Me
-**수학과 재학생** | **AI/ML Engineer in Making** | **파란학기제 MCP 프로젝트 팀원**
-
-수학적 사고를 기반으로 실무 AI 시스템을 구축하는 것을 목표로 하고 있습니다. 이론과 실무의 균형을 추구하며, 데이터 중심의 문제 해결에 열정을 가지고 있습니다.
-
-## 🚀 Current Focus
-### MCP AI Ops Project (2024.09 - Present)
-**Multi-Context-based Predictive Resource Allocation System**
-
-아주대학교 파란학기제 프로젝트로, Google Cluster Data를 활용한 시계열 예측 모델 개발을 담당하고 있습니다.
-
-- **역할**: LSTM 모델 개발 및 시계열 데이터 분석
-- **기술 스택**: Python, TensorFlow, BigQuery, FastAPI
-- **주요 성과**:
-  - 168시점 시계열 데이터를 활용한 24시간 예측 모델 구현
-  - Context-Aware 예측 시스템 설계 (Peak/Normal/Low/Weekend)
-  - Discord Webhook 기반 실시간 이상 탐지 알림 시스템 구축
-  - BigQuery에서 40GB+ 대용량 데이터 전처리 파이프라인 구축
-
-## 💻 Tech Stack
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-### Machine Learning & Data Science
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/-scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-### Cloud & Infrastructure
-![Google Cloud](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=google&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-### Web Development
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-
-## 📊 Key Projects
-
-### 1. LSTM 시계열 예측 모델
-- **목적**: 클러스터 리소스 사용량 24시간 예측
-- **도전**: 168개 데이터포인트로 의미있는 예측 모델 구현
-- **해결**: RobustScaler + Huber Loss로 극값 처리, Context 가중치 적용
-- **결과**: Train R² 0.74 달성 (Validation 개선 진행 중)
-
-### 2. BigQuery 데이터 파이프라인
-- **목적**: 40GB Google Cluster Data 전처리
-- **도전**: 대용량 데이터의 효율적 처리 및 특성 엔지니어링
-- **해결**: SQL 윈도우 함수 활용, 시간별 집계 최적화
-- **결과**: 10개 핵심 특성 추출 및 정규화 완료
-
-### 3. 실시간 이상 탐지 시스템
-- **목적**: 비정상 패턴 자동 감지 및 알림
-- **도전**: False Positive 최소화와 민감도 균형
-- **해결**: Isolation Forest + 통계적 임계값 혼합 접근
-- **결과**: Discord 알림 자동화 시스템 구축
-
-## 📈 My Journey
-
-### 🔍 From Theory to Practice
-수학과에서 배운 선형대수와 확률론이 머신러닝의 핵심 기반이라는 것을 깨달았습니다. 이론적 지식을 실제 시스템으로 구현하는 과정에서 많은 도전과 학습의 기회를 경험했습니다.
-
-### 💡 Key Learnings
-1. **데이터가 모든 것을 결정한다**: 아무리 정교한 모델도 품질 좋은 데이터 없이는 무의미
-2. **이론과 실무의 간극**: 교과서의 깔끔한 예제와 달리, 실제 데이터는 항상 예상치 못한 문제를 포함
-3. **협업의 중요성**: 개인 프로젝트와 팀 프로젝트의 차이, API 설계와 인터페이스 정의의 중요성
-4. **실패에서 배우기**: R² -0.09라는 실패에서 시계열 데이터 누수 문제를 발견하고 해결
-
-### 🎯 Future Goals
-- **단기**: MCP 프로젝트 완성 및 실제 AoldaCloud 환경 배포
-- **중기**: 인공지능융합학과 복수전공을 통한 체계적 AI 역량 강화
-- **장기**: 이론과 실무를 겸비한 AI 엔지니어로 성장
-
-## 📫 Connect with Me
-- **GitHub**: [@alphabeen](https://github.com/alphabeen)
-- **Project Repository**: [MCP_AI_Ops](https://github.com/MCP-AI-Ops/MCP_AI_Ops)
+<p align="center">
+  <b>수학적 사고로 세상을 자동화하는 개발자</b><br>
+  📊 수학(Mathematics) × 🤖 인공지능융합(AI Convergence) × ☁️ 클라우드 자동화(DevOps)
+</p>
 
 ---
 
-*"수학적 사고로 문제를 정의하고, 코드로 해결책을 구현합니다"*
+## 🧭 소개 (About Me)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alphabeen&show_icons=true&theme=tokyonight)
+> “나는 코드를 연구처럼 다루는 사람이다.”
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alphabeen&layout=compact&theme=tokyonight)
+저는 **아주대학교 수학과 & 인공지능융합학과 복수전공**을 하고 있는 **정진호**입니다.  
+수학적 사고를 기반으로 데이터를 분석하고,  
+그 논리를 **AI와 클라우드 자동화 시스템**으로 구현하는 데 열정을 가지고 있습니다.  
+
+💡 최근에는 **AI-Ops 기반 클라우드 자동배포 시스템(MCP)** 을 비롯해,  
+접근성(Barrier-Free), 자연어처리, 데이터 분석 등  
+AI 기술을 실제 서비스에 녹여내는 프로젝트를 진행하고 있습니다.
+
+---
+
+## 🧠 기술 스택 (Tech Stack)
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,flutter,nextjs,aws,mysql,git,github&theme=light" />
+</p>
+
+---
+
+## 🚀 주요 프로젝트 (Projects)
+
+### 🧩 MCP – AI-Ops 자동 배포 플랫폼
+> 아주대학교 클라우드(AjouCloud) 기반 멀티테넌시 자동 배포 시스템
+
+- **LSTM 기반 리소스 예측** (24시간 CPU/Memory Forecast)  
+- **IsolationForest** 이상 탐지  
+- **FastAPI + Docker** 자동 오케스트레이션  
+- **Next.js (Lovable UI)** 대시보드로 실시간 시각화  
+
+🛠️ `FastAPI` · `MySQL` · `Docker` · `AWS EC2` · `LSTM`  
+🔗 [MCP Repository](https://github.com/alphabeen/alphabeen)
+
+---
+
+### 🗣️ The쉬운말로
+> 문해력이 낮은 사용자를 위한 “쉬운 말 변환” 앱
+
+- GPT API를 활용한 문장 단순화 모델  
+- 현대오토에버 Barrier-Free App Contest 참가작  
+- Flutter 기반 UI + 더미데이터 연동  
+
+🛠️ `Flutter` · `Riverpod` · `FastAPI` · `GPT API`
+
+---
+
+### 🚇 Silent Subway
+> 청각·시각 장애인을 위한 다감각 지하철 안내 앱
+
+- 실시간 지하철 정보 제공  
+- 진동 / 점자 / 최소시각 UI로 접근성 강화  
+- Android Accessibility API 완전 연동  
+
+🛠️ `Flutter` · `Android Accessibility` · `Seoul Subway API`
+
+---
+
+### 📚 LibraryAI
+> 도서관 데이터 기반 추천 & 폐기점수 예측 시스템
+
+- `TF-IDF + TextRank` 기반 키워드 추출  
+- 폐기점수 예측 + 연령대별 선호 모델 구축  
+- 도서관정보나루 OpenAPI 연동  
+
+🛠️ `Python` · `pandas` · `scikit-learn` · `TF-IDF`
+
+---
+
+### 🧬 Kaggle Multimodal Challenge
+> Qwen2.5-VL 기반 멀티모달 통합 학습
+
+- Captioning / VQA / 수학추론 / 요약 등 단일모델 멀티태스크  
+- LoRA 기반 미세조정 + BitsAndBytes 양자화  
+- OOM-safe 파이프라인 설계  
+
+🛠️ `PyTorch` · `Transformers` · `LoRA` · `BitsAndBytes`
+
+---
+
+## 🧩 성장 여정 (My Coding Journey)
+
+| 연도 | 단계 | 주요 내용 |
+|------|------|-----------|
+| **2022** | 🎯 시작 | 프로그래밍 입문 및 <b>아주대학교 산업수학프로그래밍대회 우수상</b> 수상 |
+| **2023** | 🧮 기초 확립 | SQLD 자격증 취득, 데이터베이스 및 SQL 중심 학습 |
+| **2024** | 📊 데이터 분석 | 통계, 회귀분석, t/F-test, 머신러닝 기초 확립 |
+| **2025 상반기** | 📱 앱 개발 | Flutter 기반 Barrier-Free & 데이터 연동 앱 개발 |
+| **2025 하반기** | ☁️ AI-Ops | 클라우드 자동배포 + 예측 시스템 완성 (MCP 프로젝트) |
+| **이후** | 🧬 확장 | 멀티모달 AI 및 클라우드 인텔리전스 연구 진행 중 |
+
+---
+
+## 💡 관심 분야 (Research & Interests)
+
+- 🤖 **AI를 활용한 클라우드 자동화 및 자율 운영 (AIOps)**  
+- 📈 **데이터 분석 및 통계적 모델링 (Data Analytics)**  
+- 🧹 **데이터 전처리 및 파이프라인 자동화 (Data Preprocessing & Automation)**  
+- 📊 **시계열 예측 및 이상 탐지 모델 (Time-Series & Anomaly Detection)**  
+
+---
+
+## 🧠 가치관 (My Philosophy)
+
+> “복잡한 시스템이 스스로 생각하고 움직이게 만드는 것이 진짜 기술이다.”
+
+저는 **모델을 만드는 개발자**를 넘어  
+**지능적으로 작동하는 시스템 전체를 설계하는 엔지니어**가 되고 싶습니다.  
+데이터가 흐르고, 예측이 이루어지고,  
+그 결과가 스스로 작동하도록 만드는 시스템 —  
+그게 제가 추구하는 개발의 형태입니다.
+
+---
+
+## 📫 연락처 (Contact)
+
+📧 **Email**: jungjin03@ajou.ac.kr  
+🐙 **GitHub**: [github.com/alphabeen](https://github.com/alphabeen)  
+🌐 **Portfolio**: 준비 중
+
+---
+
+## ⚙️ GitHub 통계 (Stats)
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=alphabeen&show_icons=true&theme=tokyonight&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alphabeen&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+<p align="center">
+  <b>“배포는 빠르게, 예측은 더 똑똑하게 — That’s the MCP way.”</b>
+</p>
+
+---
