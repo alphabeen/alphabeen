@@ -18,10 +18,14 @@
 
 ```python
 class JinhoJung:
-    university  = "아주대학교 (Ajou University)"
-    major       = ["수학과", "인공지능융합학과"]
-    interests   = ["Backend Engineering", "AI/ML Systems", "Cloud Automation"]
-    currently   = "Dooring Partners — 크리에이터·셀러 커머스 플랫폼 백엔드 개발 중"
+      university  = "아주대학교 (Ajou University)"
+      major       = ["수학과 (Mathematics)", "인공지능융합학과 (AI Convergence)"]
+      year        = "3학년 (Junior)"
+      interests   = ["AI Systems Engineering", "backend Engineering"]
+      currently   = [
+          "IDS — VM 리소스 수요 예측 시스템 (VM Resource Demand Forecasting)",
+          "Dooring Partners — 크리에이터/셀러 커머스 플랫폼 백엔드 (Commerce Platform Backend)",
+      ]
 
     def introduce(self):
         print("수학적 사고로 문제를 정의하고, 코드로 해결합니다.")
